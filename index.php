@@ -25,6 +25,7 @@
 				<div class="carousel-item freshers-week-panel white-text" href="#one!">
 					<div class="background absolute"></div>
 					<div class="overlay-color absolute"></div>
+					<div class="freshers-logo center"></div>
 					<h2 class="countdown"></h2>
 				</div>
 				<div class="carousel-item college-chair-panel white-text" href="#two!">

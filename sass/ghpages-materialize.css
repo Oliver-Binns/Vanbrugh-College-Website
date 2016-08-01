@@ -7033,6 +7033,15 @@ body.parallax-demo footer {
 .carousel-item {
   background-size: cover; }
 
+.freshers-week-panel .freshers-logo {
+  height: 250px;
+  margin-top: 30px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../img/carousel/freshers-logo.png");
+  background-size: contain; }
+
 .freshers-week-panel .absolute {
   position: absolute;
   width: 110%;
