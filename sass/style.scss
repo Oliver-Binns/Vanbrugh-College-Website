@@ -132,9 +132,18 @@ nav.top-nav {
   height: 122px;
   box-shadow: none;
 
+  .nav-wrapper{
+    text-align: center;
+  }
+
   a.page-title {
+    font-family: 'Flareserif 821', 'Roboto', sans-serif;
     line-height: 122px;
     font-size: 48px;
+  }
+  a.page-title img{
+    height: 48px;
+    margin-right:20px;
   }
 }
 a.button-collapse.top-nav {
@@ -167,10 +176,11 @@ a.button-collapse.top-nav {
 
 @media #{$medium-and-down} {
   nav .nav-wrapper {
-    text-align: center;
-
     a.page-title {
       font-size: 36px;
+    }
+    a.page-title img{
+      height: 36px;
     }
   }
 }
@@ -898,6 +908,7 @@ body.parallax-demo footer {
 /** Carousel Panels **/
 .carousel-item{
   background-size:cover;
+  background-position: bottom center;
 }
 .freshers-week-panel .freshers-logo{
   height:250px;
@@ -922,7 +933,8 @@ body.parallax-demo footer {
   -webkit-filter: blur(1px);
 }
 .freshers-week-panel .overlay-color{
-  background-color:rgba(093,042,101,0.7);
+  background-color:color("materialize-purple", "lighten-3");
+  opacity:0.7;
 }
 .college-chair-panel{
   background-image: url('../img/carousel/picnic.jpg');
@@ -932,4 +944,12 @@ body.parallax-demo footer {
 }
 .york-colleges-panel{
   background-image: url('../img/carousel/minster.jpg');
+}
+
+/** Promo Cards **/
+.card-row{
+  padding-top:10px;
+  .card{
+    height:100%;
+  }
 }

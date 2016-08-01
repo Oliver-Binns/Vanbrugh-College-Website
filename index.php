@@ -14,64 +14,76 @@
 		<header>
 			<nav class="top-nav">
 				<div class="container">
-					<div class="nav-wrapper">
-						<a class="page-title">Vanbrugh College JCR</a>
-					</div>
+                    <div class="nav-wrapper">
+                        <a class="page-title" href="index.php"><img src="img/bird-header.png">Vanbrugh College JCR</a>
+                    </div>
 				</div>
 			</nav>
 		</header>
 		<main>
 			<div class="carousel carousel-slider center" data-indicators="true">
-				<div class="carousel-item freshers-week-panel white-text" href="#one!">
+				<div class="carousel-item freshers-week-panel white-text">
 					<div class="background absolute"></div>
 					<div class="overlay-color absolute"></div>
 					<div class="freshers-logo center"></div>
 					<h2 class="countdown"></h2>
 				</div>
-				<div class="carousel-item college-chair-panel white-text" href="#two!">
+				<div class="carousel-item college-chair-panel white-text">
 					<h2>Second Panel</h2>
 					<p class="white-text">This is your second panel</p>
 				</div>
-				<div class="carousel-item accommodation-panel white-text" href="#three!">
+				<div class="carousel-item accommodation-panel white-text">
 					<h2>Third Panel</h2>
 					<p class="white-text">This is your third panel</p>
-					<a class="btn waves-effect white grey-text darken-text-2">view accommodation</a>
+					<a class="btn waves-effect white grey-text darken-text-2" href="https://www.york.ac.uk/study/accommodation/rooms-prices/vanbrugh/" target="_blank">view accommodation</a>
 				</div>
-				<div class="carousel-item york-colleges-panel white-text" href="#four!">
+				<div class="carousel-item york-colleges-panel white-text">
 					<h2>Fourth Panel</h2>
 					<p class="white-text">This is your fourth panel</p>
 				</div>
 			</div>
 			
 			<div class="container">
-				<div class="row">
+				<div class="row card-row">
 					<div class="col s12 m6 l3">
-						<div class="center promo promo-example">
-							<i class="material-icons">web</i>
-							<p class="promo-caption">College Website</p>
-							<p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
-						</div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/share/ducknorris.jpg">
+                            </div>
+                            <div class="card-action">
+                                <a href="https://www.facebook.com/duck.norris.923" target="_blank">Duck Norris Facebook</a>
+                            </div>
+                        </div>
 					</div>
 					<div class="col s12 m6 l3">
-						<div class="center promo promo-example">
-							<i class="material-icons">flash_on</i>
-							<p class="promo-caption">Twitter</p>
-							<p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
-						</div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/share/facebook.png">
+                            </div>
+                            <div class="card-action">
+                                <a href="https://www.facebook.com/vanbrughcollege/" target="_blank">Vanbrugh Facebook</a>
+                            </div>
+                        </div>
 					</div>
 					<div class="col s12 m6 l3">
-						<div class="center promo promo-example">
-							<i class="material-icons">flash_on</i>
-							<p class="promo-caption">Facebook</p>
-							<p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
-						</div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/share/twitter.png">
+                            </div>
+                            <div class="card-action">
+                                <a href="https://www.twitter.com/vanbrughjcr" target="_blank">Vanbrugh Twitter</a>
+                            </div>
+                        </div>
 					</div>
 					<div class="col s12 m6 l3">
-						<div class="center promo promo-example">
-							<i class="material-icons">flash_on</i>
-							<p class="promo-caption">Snapchat</p>
-							<p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
-						</div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/share/snapchat.png">
+                            </div>
+                            <div class="card-action">
+                                <a href="https://www.snapchat.com/add/vanbrughsnapped" target="_blank">Vanbrugh Snapchat</a>
+                            </div>
+                        </div>
 					</div>
 				</div>
 			</div>
@@ -95,6 +107,7 @@
 							<li><a class="grey-text text-lighten-3" href="https://www.facebook.com/vanbrughcollege/" target="_blank">Facebook</a></li>
 							<li><a class="grey-text text-lighten-3" href="https://www.instagram.com/vanbrughcollege/" target="_blank">Instagram</a></li>
 							<li><a class="grey-text text-lighten-3" href="https://www.twitter.com/vanbrughjcr" target="_blank">Twitter</a></li>
+							<li><a class="grey-text text-lighten-3" href="https://www.york.ac.uk/colleges/vanbrugh/" target="_blank">Vanbrugh College</a></li>
 							<li><a class="grey-text text-lighten-3" href="https://www.yorkcolleges.co.uk/" target="_blank">York Colleges</a></li>
 						</ul>
 					</div>

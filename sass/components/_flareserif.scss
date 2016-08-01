@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Flareserif 821";
+  src: local(Roboto Regular), url('#{$fserif-font-path}Flareserif821.eot');
+  src: url("#{$fserif-font-path}Flareserif821.eot?#iefix") format('embedded-opentype'),
+  url("#{$fserif-font-path}Flareserif821.woff2") format("woff2"),
+  url("#{$fserif-font-path}Flareserif821.woff") format("woff"),
+  url("#{$fserif-font-path}Flareserif821.ttf") format("truetype");
+  font-weight: 400;
+}

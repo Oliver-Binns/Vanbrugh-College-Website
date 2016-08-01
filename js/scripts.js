@@ -15,18 +15,17 @@ $(document).ready(function(){
 				countdownString += days + ' day';
 			}
 
-			if(countdownString != ""){
+            var hours = DateDiff.inHours(freshersWeek);
+			if(countdownString != "" && hours > 0){
 				countdownString += ", "
 			}
-
-			var hours = DateDiff.inHours(freshersWeek);
 			if(hours > 1){
 				countdownString += hours + ' hours';
 			}else if(hours == 1){
 				countdownString += hours + ' hours';
 			}
 
-			if(hours > 1){
+			if(hours > 1 || days > 1){
 				if(countdownString != ""){
 					countdownString += " & "
 				}
@@ -40,8 +39,10 @@ $(document).ready(function(){
 			if(minutes > 1){
 				countdownString += minutes + ' minutes.';
 			}else if(hours == 1){
-				countdownString += minutes + ' minutes.';
-			}
+				countdownString += minutes + ' minute.';
+			}else{
+                countdownString += " 0 minutes.";
+            }
 
 			item.innerHTML = countdownString;
 		}.bind(item, freshersWeek), 1000);

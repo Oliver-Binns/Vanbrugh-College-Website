@@ -3225,6 +3225,11 @@ nav {
   src: url("https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/fonts/roboto/Roboto-Bold.eot");
   src: url("https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/fonts/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/fonts/roboto/Roboto-Bold.woff") format("woff"), url("https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/fonts/roboto/Roboto-Bold.ttf") format("truetype");
   font-weight: 700; }
+@font-face {
+  font-family: "Flareserif 821";
+  src: local(Roboto Regular), url("../fonts/Flareserif821.eot");
+  src: url("../fonts/Flareserif821.eot?#iefix") format("embedded-opentype"), url("../fonts/Flareserif821.woff2") format("woff2"), url("../fonts/Flareserif821.woff") format("woff"), url("../fonts/Flareserif821.ttf") format("truetype");
+  font-weight: 400; }
 a {
   text-decoration: none; }
 
@@ -6481,9 +6486,15 @@ ul.side-nav.fixed {
 nav.top-nav {
   height: 122px;
   box-shadow: none; }
+  nav.top-nav .nav-wrapper {
+    text-align: center; }
   nav.top-nav a.page-title {
+    font-family: 'Flareserif 821', 'Roboto', sans-serif;
     line-height: 122px;
     font-size: 48px; }
+  nav.top-nav a.page-title img {
+    height: 48px;
+    margin-right: 20px; }
 
 a.button-collapse.top-nav {
   position: absolute;
@@ -6506,10 +6517,10 @@ a.button-collapse.top-nav {
   a.button-collapse.top-nav {
     left: 5%; } }
 @media only screen and (max-width: 992px) {
-  nav .nav-wrapper {
-    text-align: center; }
-    nav .nav-wrapper a.page-title {
-      font-size: 36px; } }
+  nav .nav-wrapper a.page-title {
+    font-size: 36px; }
+  nav .nav-wrapper a.page-title img {
+    height: 36px; } }
 @media only screen and (min-width: 993px) {
   .container {
     width: 85%; } }
@@ -7031,7 +7042,8 @@ body.parallax-demo footer {
 
 /** Carousel Panels **/
 .carousel-item {
-  background-size: cover; }
+  background-size: cover;
+  background-position: bottom center; }
 
 .freshers-week-panel .freshers-logo {
   height: 250px;
@@ -7056,7 +7068,8 @@ body.parallax-demo footer {
   -webkit-filter: blur(1px); }
 
 .freshers-week-panel .overlay-color {
-  background-color: rgba(93, 42, 101, 0.7); }
+  background-color: #75497B;
+  opacity: 0.7; }
 
 .college-chair-panel {
   background-image: url("../img/carousel/picnic.jpg"); }
@@ -7066,5 +7079,11 @@ body.parallax-demo footer {
 
 .york-colleges-panel {
   background-image: url("../img/carousel/minster.jpg"); }
+
+/** Promo Cards **/
+.card-row {
+  padding-top: 10px; }
+  .card-row .card {
+    height: 100%; }
 
 /*# sourceMappingURL=ghpages-materialize.css.map */
