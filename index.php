@@ -22,12 +22,8 @@
 		</header>
 		<main>
 			<div class="carousel carousel-slider center" data-indicators="true">
-				<div class="carousel-fixed-item center">
-					<a class="btn waves-effect white grey-text darken-text-2">button</a>
-				</div>
 				<div class="carousel-item freshers-week-panel white-text" href="#one!">
-					<h2>First Panel</h2>
-					<p class="white-text">This is your first panel</p>
+					<h2 class="countdown"></h2>
 				</div>
 				<div class="carousel-item college-chair-panel white-text" href="#two!">
 					<h2>Second Panel</h2>
@@ -36,39 +32,43 @@
 				<div class="carousel-item accommodation-panel white-text" href="#three!">
 					<h2>Third Panel</h2>
 					<p class="white-text">This is your third panel</p>
+					<a class="btn waves-effect white grey-text darken-text-2">view accommodation</a>
 				</div>
 				<div class="carousel-item york-colleges-panel white-text" href="#four!">
 					<h2>Fourth Panel</h2>
 					<p class="white-text">This is your fourth panel</p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col s6 l3">
-					<div class="center promo promo-example">
-						<i class="material-icons">web</i>
-						<p class="promo-caption">College Website</p>
-						<p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+			
+			<div class="container">
+				<div class="row">
+					<div class="col s12 m6 l3">
+						<div class="center promo promo-example">
+							<i class="material-icons">web</i>
+							<p class="promo-caption">College Website</p>
+							<p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+						</div>
 					</div>
-				</div>
-				<div class="col s6 l3">
-					<div class="center promo promo-example">
-						<i class="material-icons">flash_on</i>
-						<p class="promo-caption">Twitter</p>
-						<p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+					<div class="col s12 m6 l3">
+						<div class="center promo promo-example">
+							<i class="material-icons">flash_on</i>
+							<p class="promo-caption">Twitter</p>
+							<p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+						</div>
 					</div>
-				</div>
-				<div class="col s6 l3">
-					<div class="center promo promo-example">
-						<i class="material-icons">flash_on</i>
-						<p class="promo-caption">Facebook</p>
-						<p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+					<div class="col s12 m6 l3">
+						<div class="center promo promo-example">
+							<i class="material-icons">flash_on</i>
+							<p class="promo-caption">Facebook</p>
+							<p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+						</div>
 					</div>
-				</div>
-				<div class="col s6 l3">
-					<div class="center promo promo-example">
-						<i class="material-icons">flash_on</i>
-						<p class="promo-caption">Snapchat</p>
-						<p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+					<div class="col s12 m6 l3">
+						<div class="center promo promo-example">
+							<i class="material-icons">flash_on</i>
+							<p class="promo-caption">Snapchat</p>
+							<p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+						</div>
 					</div>
 				</div>
 			</div>
