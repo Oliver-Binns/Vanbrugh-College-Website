@@ -23,6 +23,8 @@
 		<main>
 			<div class="carousel carousel-slider center" data-indicators="true">
 				<div class="carousel-item freshers-week-panel white-text" href="#one!">
+					<div class="background absolute"></div>
+					<div class="overlay-color absolute"></div>
 					<h2 class="countdown"></h2>
 				</div>
 				<div class="carousel-item college-chair-panel white-text" href="#two!">

@@ -7033,8 +7033,21 @@ body.parallax-demo footer {
 .carousel-item {
   background-size: cover; }
 
-.freshers-week-panel {
-  background-image: url("../img/carousel/aerial.jpg"); }
+.freshers-week-panel .absolute {
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  left: -5%;
+  top: -5%;
+  z-index: -1; }
+
+.freshers-week-panel .background {
+  background-image: url("../img/carousel/aerial.jpg");
+  background-size: cover;
+  -webkit-filter: blur(1px); }
+
+.freshers-week-panel .overlay-color {
+  background-color: rgba(93, 42, 101, 0.7); }
 
 .college-chair-panel {
   background-image: url("../img/carousel/picnic.jpg"); }
