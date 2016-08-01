@@ -898,3 +898,20 @@ body.parallax-demo footer {
     }
   }
 }
+
+/** Carousel Panels **/
+.carousel-item{
+  background-size:cover;
+}
+.freshers-week-panel{
+  background-image: url('../img/carousel/aerial.jpg');
+}
+.college-chair-panel{
+  background-image: url('../img/carousel/picnic.jpg');
+}
+.accommodation-panel{
+  background-image: url('../img/carousel/fairfax.jpg');
+}
+.york-colleges-panel{
+  background-image: url('../img/carousel/minster.jpg');
+}

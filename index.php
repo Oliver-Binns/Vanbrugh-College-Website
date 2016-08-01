@@ -5,8 +5,7 @@
 		<!--Import Google Icon Font-->
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<!--Import materialize.css-->
-		<!--link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css"  media="screen,projection"/-->
-		<link type="text/css" rel="stylesheet" href="sass/ghpages-materialize.css"  media="screen,projection"/>
+		<link type="text/css" rel="stylesheet" href="sass/ghpages-materialize.min.css"  media="screen,projection"/>
 
 		<!--Let browser know website is optimized for mobile-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -22,36 +21,56 @@
 			</nav>
 		</header>
 		<main>
+			<div class="carousel carousel-slider center" data-indicators="true">
+				<div class="carousel-fixed-item center">
+					<a class="btn waves-effect white grey-text darken-text-2">button</a>
+				</div>
+				<div class="carousel-item freshers-week-panel white-text" href="#one!">
+					<h2>First Panel</h2>
+					<p class="white-text">This is your first panel</p>
+				</div>
+				<div class="carousel-item college-chair-panel white-text" href="#two!">
+					<h2>Second Panel</h2>
+					<p class="white-text">This is your second panel</p>
+				</div>
+				<div class="carousel-item accommodation-panel white-text" href="#three!">
+					<h2>Third Panel</h2>
+					<p class="white-text">This is your third panel</p>
+				</div>
+				<div class="carousel-item york-colleges-panel white-text" href="#four!">
+					<h2>Fourth Panel</h2>
+					<p class="white-text">This is your fourth panel</p>
+				</div>
+			</div>
 			<div class="row">
-				<div class="col s6 m3">
+				<div class="col s6 l3">
 					<div class="center promo promo-example">
 						<i class="material-icons">web</i>
 						<p class="promo-caption">College Website</p>
 						<p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
 					</div>
 				</div>
-				<div class="col s6 m3">
+				<div class="col s6 l3">
 					<div class="center promo promo-example">
 						<i class="material-icons">flash_on</i>
 						<p class="promo-caption">Twitter</p>
 						<p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
 					</div>
 				</div>
-				<div class="col s6 m3">
+				<div class="col s6 l3">
 					<div class="center promo promo-example">
 						<i class="material-icons">flash_on</i>
 						<p class="promo-caption">Facebook</p>
 						<p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
 					</div>
 				</div>
-				<div class="col s6 m3">
+				<div class="col s6 l3">
 					<div class="center promo promo-example">
 						<i class="material-icons">flash_on</i>
 						<p class="promo-caption">Snapchat</p>
 						<p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
 					</div>
 				</div>
-			
 			</div>
 		</main>
 		<footer class="page-footer">
@@ -84,10 +103,9 @@
 				</div>
 			</div>
         </footer>
-	
-	
 		<!--Import jQuery before materialize.js-->
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"/>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/scripts.min.js"></script>
 	</body>
 </html>
