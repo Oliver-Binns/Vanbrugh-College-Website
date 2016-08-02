@@ -920,7 +920,8 @@ body.parallax-demo footer {
   }
   .freshers-logo{
     height:250px;
-    margin:15px;
+    margin-top:15px;
+    margin-bottom:15px;
     width:100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -950,6 +951,16 @@ body.parallax-demo footer {
 
 .college-chair-panel{
   background-image: url('../img/carousel/lake.jpg');
+  .college-logo{
+    height:250px;
+    margin-top:15px;
+    margin-bottom:15px;
+    max-width:100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    background-image: url('../img/college-logo.png');
+  }
 }
 .accommodation-panel{
   background-image: url('../img/carousel/fairfax.jpg');

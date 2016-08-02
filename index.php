@@ -30,9 +30,10 @@
 					<p class="white-text">More Details Coming Soon.</p>
 				</div>
 				<div class="carousel-item college-chair-panel white-text">
-					<h2>College Website</h2>
-					<p class="white-text">View information provided by the University</p>
-					<a class="btn waves-effect white grey-text darken-text-2" href="https://www.york.ac.uk/colleges/vanbrugh/" target="_blank">official information</a>
+					<div title="Vanbrugh College" class="college-logo"></div>
+					<!--h2>College Website</h2>
+					<p class="white-text">View information provided by the University</p-->
+					<a class="btn waves-effect white grey-text darken-text-2" href="https://www.york.ac.uk/colleges/vanbrugh/" target="_blank">university information</a>
 				</div>
 				<div class="carousel-item accommodation-panel white-text">
 					<h2>Halls of Residence</h2>
