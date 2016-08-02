@@ -9,6 +9,27 @@
 
 		<!--Let browser know website is optimized for mobile-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+		<!--Favicon and Touch Images-->
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+		
+		<!--Open Graph & Other Meta Tags-->
+		<meta property="og:title" content="Vanbrugh College JCR"/>
+		<meta property="og:url" content="http://www.vanbrugh-college.co.uk"/>
+		<meta property="og:description" content="Welcome to the Vanbrugh College JCR website. The JCR is the student run organisation within Vanbrugh College!"/>
+		<meta name="description" content="Welcome to the Vanbrugh College JCR website. The JCR is the student run organisation within Vanbrugh College!"/>
+		<meta name="apple-itunes-app" content="app-id=906717788" />
+
+		<!--Google Analytics-->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-22973678-1', 'vanbrugh-college.co.uk');
+			ga('send', 'pageview');
+		</script>
 	</head>
 	<body>
 		<header>
