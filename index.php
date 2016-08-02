@@ -25,14 +25,12 @@
 				<div class="carousel-item freshers-week-panel white-text">
 					<div class="background absolute"></div>
 					<div class="overlay-color absolute"></div>
-					<div class="freshers-logo center"></div>
+					<div title="Freshers 2016 Logo" class="freshers-logo logo center"></div>
 					<h2 class="countdown"></h2>
 					<p class="white-text">More Details Coming Soon.</p>
 				</div>
 				<div class="carousel-item college-chair-panel white-text">
-					<div title="Vanbrugh College" class="college-logo"></div>
-					<!--h2>College Website</h2>
-					<p class="white-text">View information provided by the University</p-->
+					<div title="Vanbrugh College Logo" class="college-logo logo"></div>
 					<a class="btn waves-effect white grey-text darken-text-2" href="https://www.york.ac.uk/colleges/vanbrugh/" target="_blank">university information</a>
 				</div>
 				<div class="carousel-item accommodation-panel white-text">
@@ -41,8 +39,11 @@
 					<a class="btn waves-effect white grey-text darken-text-2" href="https://www.york.ac.uk/study/accommodation/rooms-prices/vanbrugh/" target="_blank">view accommodation</a>
 				</div>
 				<div class="carousel-item york-colleges-panel white-text">
-					<h2>Fourth Panel</h2>
-					<p class="white-text">This is your fourth panel</p>
+					<div title="York Colleges Logo" class="york-colleges-logo logo"></div>
+					<div class="container" style="max-width:500px;">
+						<a href="https://itunes.apple.com/gb/app/york-colleges/id906717788?mt=8" target="_blank"><div class="app-store decal"></div></a>
+						<a href="https://play.google.com/store/apps/details?id=com.vanbrugh_college.vanbrugh" target="_blank"><div class="google-play decal"></div></a>
+					</div>
 				</div>
 			</div>
 			

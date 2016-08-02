@@ -6394,6 +6394,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 /***************
   HTML Styles
 ***************/
+* {
+  background-repeat: no-repeat; }
+
 body {
   background-color: #fcfcfc;
   display: flex;
@@ -7044,6 +7047,9 @@ body.parallax-demo footer {
 .carousel-item {
   background-size: cover;
   background-position: bottom center; }
+  .carousel-item .logo {
+    background-size: contain;
+    background-position: center center; }
 
 .freshers-week-panel h2 {
   margin: 0; }
@@ -7054,10 +7060,7 @@ body.parallax-demo footer {
   margin-top: 15px;
   margin-bottom: 15px;
   width: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url("../img/carousel/freshers-logo.png");
-  background-size: contain; }
+  background-image: url("../img/carousel/freshers-logo.png"); }
 .freshers-week-panel .absolute {
   position: absolute;
   width: 110%;
@@ -7082,16 +7085,29 @@ body.parallax-demo footer {
     margin-top: 15px;
     margin-bottom: 15px;
     max-width: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
     background-image: url("../img/college-logo.png"); }
 
 .accommodation-panel {
   background-image: url("../img/carousel/fairfax.jpg"); }
 
 .york-colleges-panel {
-  background-image: url("../img/carousel/minster.jpg"); }
+  background-color: #002663; }
+  .york-colleges-panel .york-colleges-logo {
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 100%;
+    background-image: url("../img/carousel/york-colleges-logo.png"); }
+  .york-colleges-panel .decal {
+    width: 200px;
+    height: 50px;
+    background-size: contain; }
+  .york-colleges-panel .app-store {
+    float: left;
+    background-image: url("../img/decals/app-store-badge.svg"); }
+  .york-colleges-panel .google-play {
+    float: right;
+    background-image: url("../img/decals/googlePlay.png"); }
 
 /** Promo Cards **/
 .card-row {

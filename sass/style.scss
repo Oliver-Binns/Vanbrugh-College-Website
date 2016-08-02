@@ -1,6 +1,9 @@
 /***************
   HTML Styles
 ***************/
+*{
+  background-repeat: no-repeat;
+}
 body {
   background-color: #fcfcfc;
   display: flex;
@@ -909,6 +912,11 @@ body.parallax-demo footer {
 .carousel-item{
   background-size:cover;
   background-position: bottom center;
+
+  .logo{
+    background-size:contain;
+    background-position: center center;
+  }
 }
 
 .freshers-week-panel{
@@ -918,15 +926,15 @@ body.parallax-demo footer {
   p{
     margin:0;
   }
+
   .freshers-logo{
     height:250px;
     margin-top:15px;
     margin-bottom:15px;
     width:100%;
-    background-repeat: no-repeat;
-    background-position: center center;
+
     background-image: url('../img/carousel/freshers-logo.png');
-    background-size:contain;
+
   }
   .absolute{
     position:absolute;
@@ -956,9 +964,6 @@ body.parallax-demo footer {
     margin-top:15px;
     margin-bottom:15px;
     max-width:100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size:contain;
     background-image: url('../img/college-logo.png');
   }
 }
@@ -966,7 +971,27 @@ body.parallax-demo footer {
   background-image: url('../img/carousel/fairfax.jpg');
 }
 .york-colleges-panel{
-  background-image: url('../img/carousel/minster.jpg');
+  background-color:rgb(0,38,99);
+  .york-colleges-logo{
+    height:250px;
+    margin-top:15px;
+    margin-bottom:15px;
+    max-width:100%;
+    background-image: url('../img/carousel/york-colleges-logo.png');
+  }
+  .decal{
+    width:200px;
+    height:50px;
+    background-size:contain;
+  }
+  .app-store{
+    float:left;
+    background-image: url('../img/decals/app-store-badge.svg');
+  }
+  .google-play{
+    float:right;
+    background-image: url('../img/decals/googlePlay.png');
+  }
 }
 
 /** Promo Cards **/
