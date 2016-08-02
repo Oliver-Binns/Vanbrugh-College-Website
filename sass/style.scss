@@ -910,34 +910,46 @@ body.parallax-demo footer {
   background-size:cover;
   background-position: bottom center;
 }
-.freshers-week-panel .freshers-logo{
-  height:250px;
-  margin-top:30px;
-  width:100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url('../img/carousel/freshers-logo.png');
-  background-size:contain;
+
+.freshers-week-panel{
+  h2{
+    margin:0;
+  }
+  p{
+    margin:0;
+  }
+  .freshers-logo{
+    height:250px;
+    margin:15px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../img/carousel/freshers-logo.png');
+    background-size:contain;
+  }
+  .absolute{
+    position:absolute;
+    width:110%;
+    height:110%;
+    left:-5%;
+    top:-5%;
+    z-index:-1;
+  }
+  .background{
+    background-image: url('../img/carousel/aerial.jpg');
+    background-size:cover;
+    filter:blur(2px);
+    -ms-filter: blur(2px);
+    -webkit-filter: blur(2px);
+  }
+  .overlay-color{
+    background-color:color("materialize-purple", "lighten-3");
+    opacity:0.7;
+  }
 }
-.freshers-week-panel .absolute{
-  position:absolute;
-  width:110%;
-  height:110%;
-  left:-5%;
-  top:-5%;
-  z-index:-1;
-}
-.freshers-week-panel .background{
-  background-image: url('../img/carousel/aerial.jpg');
-  background-size:cover;
-  -webkit-filter: blur(1px);
-}
-.freshers-week-panel .overlay-color{
-  background-color:color("materialize-purple", "lighten-3");
-  opacity:0.7;
-}
+
 .college-chair-panel{
-  background-image: url('../img/carousel/picnic.jpg');
+  background-image: url('../img/carousel/lake.jpg');
 }
 .accommodation-panel{
   background-image: url('../img/carousel/fairfax.jpg');

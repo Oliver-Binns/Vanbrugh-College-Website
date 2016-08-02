@@ -27,14 +27,16 @@
 					<div class="overlay-color absolute"></div>
 					<div class="freshers-logo center"></div>
 					<h2 class="countdown"></h2>
+					<p class="white-text">More Details Coming Soon.</p>
 				</div>
 				<div class="carousel-item college-chair-panel white-text">
-					<h2>Second Panel</h2>
-					<p class="white-text">This is your second panel</p>
+					<h2>College Website</h2>
+					<p class="white-text">View information provided by the University</p>
+					<a class="btn waves-effect white grey-text darken-text-2" href="https://www.york.ac.uk/colleges/vanbrugh/" target="_blank">official information</a>
 				</div>
 				<div class="carousel-item accommodation-panel white-text">
-					<h2>Third Panel</h2>
-					<p class="white-text">This is your third panel</p>
+					<h2>Halls of Residence</h2>
+					<p class="white-text">View photos and prices of Vanbrugh accommodation</p>
 					<a class="btn waves-effect white grey-text darken-text-2" href="https://www.york.ac.uk/study/accommodation/rooms-prices/vanbrugh/" target="_blank">view accommodation</a>
 				</div>
 				<div class="carousel-item york-colleges-panel white-text">
@@ -51,7 +53,7 @@
                                 <img src="img/share/ducknorris.jpg">
                             </div>
                             <div class="card-action">
-                                <a href="https://www.facebook.com/duck.norris.923" target="_blank">Duck Norris Facebook</a>
+                                <a href="https://www.facebook.com/duck.norris.923" target="_blank">Meet Duck Norris</a>
                             </div>
                         </div>
 					</div>
