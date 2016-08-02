@@ -968,7 +968,7 @@ body.parallax-demo footer {
   }
 }
 .accommodation-panel{
-  background-image: url('../img/carousel/fairfax.jpg');
+  background-image: url('../img/carousel/accom-large.jpg');
 }
 .york-colleges-panel{
   background-color:rgb(0,38,99);
@@ -996,7 +996,15 @@ body.parallax-demo footer {
     background-position: center right;
   }
 }
+@media #{$medium-and-down}{
+  .accommodation-panel{
+    background-image: url('../img/carousel/accom-med.jpg');
+  }
+}
 @media #{$small-and-down}{
+  .accommodation-panel{
+    background-image: url('../img/carousel/accom-small.jpg');
+  }
   .york-colleges-panel{
     .decal{
       width:45%;

@@ -7088,7 +7088,7 @@ body.parallax-demo footer {
     background-image: url("../img/college-logo.png"); }
 
 .accommodation-panel {
-  background-image: url("../img/carousel/fairfax.jpg"); }
+  background-image: url("../img/carousel/accom-large.jpg"); }
 
 .york-colleges-panel {
   background-color: #002663; }
@@ -7111,7 +7111,13 @@ body.parallax-demo footer {
     background-image: url("../img/decals/googlePlay.png");
     background-position: center right; }
 
+@media only screen and (max-width: 992px) {
+  .accommodation-panel {
+    background-image: url("../img/carousel/accom-med.jpg"); } }
 @media only screen and (max-width: 600px) {
+  .accommodation-panel {
+    background-image: url("../img/carousel/accom-small.jpg"); }
+
   .york-colleges-panel .decal {
     width: 45%; } }
 /** Promo Cards **/
