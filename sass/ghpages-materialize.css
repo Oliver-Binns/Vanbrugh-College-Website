@@ -7104,11 +7104,16 @@ body.parallax-demo footer {
     background-size: contain; }
   .york-colleges-panel .app-store {
     float: left;
-    background-image: url("../img/decals/app-store-badge.svg"); }
+    background-image: url("../img/decals/app-store-badge.svg");
+    background-position: center left; }
   .york-colleges-panel .google-play {
     float: right;
-    background-image: url("../img/decals/googlePlay.png"); }
+    background-image: url("../img/decals/googlePlay.png");
+    background-position: center right; }
 
+@media only screen and (max-width: 600px) {
+  .york-colleges-panel .decal {
+    width: 45%; } }
 /** Promo Cards **/
 .card-row {
   padding-top: 10px; }

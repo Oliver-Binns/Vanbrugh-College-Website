@@ -979,6 +979,7 @@ body.parallax-demo footer {
     max-width:100%;
     background-image: url('../img/carousel/york-colleges-logo.png');
   }
+
   .decal{
     width:200px;
     height:50px;
@@ -987,10 +988,19 @@ body.parallax-demo footer {
   .app-store{
     float:left;
     background-image: url('../img/decals/app-store-badge.svg');
+    background-position: center left;
   }
   .google-play{
     float:right;
     background-image: url('../img/decals/googlePlay.png');
+    background-position: center right;
+  }
+}
+@media #{$small-and-down}{
+  .york-colleges-panel{
+    .decal{
+      width:45%;
+    }
   }
 }
 
