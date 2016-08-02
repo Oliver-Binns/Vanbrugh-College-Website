@@ -3464,12 +3464,12 @@ small {
     border-top: 1px solid rgba(160, 160, 160, 0.2);
     padding: 20px; }
     .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
-      color: #ffab40;
+      color: #5D2A65;
       margin-right: 20px;
       transition: color .3s ease;
       text-transform: uppercase; }
       .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
-        color: #ffd8a6; }
+        color: #9f48ad; }
   .card .card-reveal {
     padding: 20px;
     position: absolute;
