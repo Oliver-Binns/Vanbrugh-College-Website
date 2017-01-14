@@ -43,13 +43,13 @@
 		</header>
 		<main>
 			<div class="carousel carousel-slider center" data-indicators="true">
-				<div class="carousel-item freshers-week-panel white-text">
+				<!--div class="carousel-item freshers-week-panel white-text">
 					<div class="background absolute"></div>
 					<div class="overlay-color absolute"></div>
 					<div title="Freshers 2016 Logo" class="freshers-logo logo center"></div>
 					<h2 class="countdown"></h2>
 					<p class="white-text">More Details Coming Soon.</p>
-				</div>
+				</div-->
 				<div class="carousel-item college-chair-panel white-text">
 					<div title="Vanbrugh College Logo" class="college-logo logo"></div>
 					<a class="btn waves-effect white grey-text darken-text-2" href="https://www.york.ac.uk/colleges/vanbrugh/" target="_blank">university information</a>
