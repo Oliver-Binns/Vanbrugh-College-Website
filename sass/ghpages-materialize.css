@@ -6527,6 +6527,9 @@ a.button-collapse.top-nav {
 @media only screen and (min-width: 993px) {
   .container {
     width: 85%; } }
+h1 {
+  font-family: 'Flareserif 821', 'Roboto', sans-serif; }
+
 #front-page-logo {
   display: inline-block;
   height: 100%;
